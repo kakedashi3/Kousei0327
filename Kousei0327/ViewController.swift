@@ -9,16 +9,11 @@ import UIKit
 
 class ViewController: UIViewController, UITextViewDelegate {
 
-    
-
     @IBOutlet weak var inputText: UITextView!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
- 
-    
     override func didReceiveMemoryWarning() {
          super.didReceiveMemoryWarning()
      }
@@ -27,9 +22,14 @@ class ViewController: UIViewController, UITextViewDelegate {
     @IBAction func button(_ sender: Any) {
         // キーボードを閉じる
         inputText.endEditing(true)
-        
     }
     
+    @IBAction func kouseiButton(_ sender: Any) {
+        inputText.endEditing(true)
+        print(inputText!)
+    }
 
+    
+    
 
 }

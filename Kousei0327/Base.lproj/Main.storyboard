@@ -1,24 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Kousei0327" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x5Q-KN-xC9">
+                                <rect key="frame" x="20" y="230" width="374" height="581"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jwf-OG-al7">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="581"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <mutableString key="text">　噴き上がるクラゲは虹色だった。水流に乗りながら、水槽の中で緩やかな軌道を描いている。暗室のフロア、ＬＥＤ照明で七色に変化する彼らの姿は、薬物中毒者の景色を連想させた。品川水族館は都会のビルディング内に作られた施設だ。俺は一人、この館内にいる。人に会うためだった。待ち合わせ時間は過ぎているが、水族館の中は飽きることがない。時間潰しにちょうど良かった。先ほどまで一緒にいた職場の女子を水族館に誘ったが、断られた。というか、断られるつもりだった。下手に一人で水族館に行くと怪しまれる。変な奴と思わせておいたほうが楽だった。
+　簡単なバイトだった。預かった「それ」を、決められた場所で客に渡す。それだけ。一回一万円。月に４回。渡す相手は毎回違う。今日もそうだった。俺は、この虹色のクラゲの前で待つ。客に話しかけられたら相手を確認し、手渡す。バイト代は後から振り込まれる。渡す内容は聞かされていないが、わかる。客の様子を見れば一目瞭然だ。
+「あんたか」
+　肩を叩かれた。自分の左側に置かれた手の先を見ると、目のくぼんだ中年がこちらを睨んでいた。四十代くらいか。黒い生地に竹の刺繍が入ったスカジャンを着ている。
+「アンドウさん」
+　男は、あぁとも、うんともいえない返事をした。偽名なのだろう。
+　俺は鞄から「それ」を出した。
+　中年の男は、俺の手から紙袋を奪い取る。無理に掴みかかってきた拍子に、俺の手を引っ掻いた。
+「痛えな」
+　気づくと、すでに男はフロアの出口へ歩いていた。背中をＬＥＤが照らし、竹林に吠える虎の刺繍が見える。手の引っかき傷は、たいしたことはなかった。
+　それでも腹が立った。このまま帰るのは釈然としない。館内を案内通りに進むと、スタジアムのようなホールに辿り着いた。すり鉢状の客席は中央のプールに向いている。笛の音、水を叩きつける音。イルカが縦横無尽に飛びまわっている。円形プールの東西南北に踏み台があった。飼育員の女性がそこに立ち、笛と手のひらで彼らを操っていた。客席はまばらだった。俺は入口付近の席に座り、ショーの様子を眺めた。客層は、俺と同じようにスーツ姿のサラリーマンや女性ばかりで、子供はいなかった。
+　ふと、覚えのある顔を見つけた。男女のカップル。チームリーダーの恭子さんと、課長の伍代だった。恭子さんの残務処理というのは、このことか。まぁ、そうだろうな、と思った。伍代は伍代で恭子さんへの接触が多い。普段から偉そうなことをいっている割には、やることやってる訳だ。
+　俺はイルカショーの会場を出た。夜風は冷たい嘆息のようだった。時計を見ると午後九時をまわっていた。荻窪の家に着く頃には十時頃だろう。何も食べていない。外食をするにも手っ取り早く食べれる店は品川駅の反対側だった。仕方なく高輪口の階段へ向かう。階段の隣にはパチンコ店があり、駅舎との間に袋小路がある。その向こうには駅のホームが見えるが、その場所は穴が開いたように真っ暗だった。パチンコを終えた男たちがニヤつきながらタバコを吸っている。その向こうに、ぐったりと座り込んでいる影を見つけた。立ち止まってよく見ると、黒いスカジャンに竹の模様が見えた。アンドウだ。顔はよく見えないが、パチンコ屋のトイレで早速キメて来たのだろう。俺は一瞥して階段を上がった。
+　薬物には興味がない。これは、ただのアルバイトだ。薬物にハマる奴にも興味がなかった。今は、金を稼がなくてはならない。俺に悪意がないとしても、渡しているものは、明らかに人を崩壊させる原因になっている。この仕事を紹介してくれたあの人は、どう思っているのだろうか。吉祥寺で、パソコンを売っている、あの人は。
+「なにかお探しですか」
+　吉祥寺の電気店で初めて出会ったあの人は、同性である俺が見ても好青年だった。
+「パソコン、見ていました」
+　しどろもどろの俺を見かねて、「わからないことがあれば」といってくれた。春風のようだった。</mutableString>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="2EH-OC-vbT"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="m1X-ih-E50"/>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bci-AE-XUS">
+                                <rect key="frame" x="317" y="177" width="33" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="keyboard.chevron.compact.down" catalog="system"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5TN-nW-Omu"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="inputText" destination="Jwf-OG-al7" id="I6a-uQ-FRc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-204.34782608695653" y="83.705357142857139"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="keyboard.chevron.compact.down" catalog="system" width="128" height="102"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
